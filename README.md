@@ -129,16 +129,24 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR COUNTER  
-
+### Upcounter Waveform:
+![upwave](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/2b03a4a1-69a4-451b-b9b8-0fc08bc0fab3)
+### Downcounter Waveform:
+![downcounter waveform](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/f8008a80-ae6d-44ef-9f8c-a2f4576a147f)
 
 
 
 
 ### TRUTH TABLE 
+###  Upcounter Truthtable:
+![upstate](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/6bc209e3-5832-40e5-9d04-44574415a0ec)
+### Downcounter Truthtable:
+![downstate](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/89c724be-17f1-4290-9771-3bbe3998be07)
 
 
 
 
 
+### RESULTS:
+Thus, The Synchornous counters of up counter and down counter circuit are studied and the truth table for different logic gates are Successfully verified.
 
-### RESULTS 
