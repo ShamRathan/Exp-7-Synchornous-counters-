@@ -118,7 +118,8 @@ endmodule
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 ### Upcounter RTL:
-![image](https://github.com/ShamRathan/Exp-7-Synchornous-counters-/assets/93587823/d36c86d2-3df3-4b21-bfd6-155d30e2222a)
+![image](https://github.com/ShamRathan/Exp-7-Synchornous-counters-/assets/93587823/3ce949e2-c028-4e1c-84d3-bec8ce90c3e6)
+
 
 ### Downcounter RTL:
 ![downcounterrtl](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/89e0c4ca-6147-4f76-88b9-c979707faffb)
@@ -131,7 +132,8 @@ endmodule
 
 ### TIMING DIGRAMS FOR COUNTER  
 ### Upcounter Waveform:
-![upwave](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/2b03a4a1-69a4-451b-b9b8-0fc08bc0fab3)
+![image](https://github.com/ShamRathan/Exp-7-Synchornous-counters-/assets/93587823/b46d8ee6-b8fb-49b2-8806-a0ebd1ae4f6e)
+
 ### Downcounter Waveform:
 ![downcounter waveform](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/f8008a80-ae6d-44ef-9f8c-a2f4576a147f)
 
