@@ -84,15 +84,15 @@ RegisterNumber: 212221230093
 ```
 ### UPCOUNTER:
 ```
-module upcounter(A,clk);
+module upcounters(clk,A);
 output reg [3:0]A;
 input clk;
-always@(posedge clk)
+always @(posedge clk)
 begin
-A[0]=((((A[1])&(A[2]))&A[3])^A[0]);
-A[1]=(((A[2])&(A[3]))^A[1]);
-A[2]=((A[3])^A[2]);
-A[3]=1^A[3];
+	A[3]=(((A[0])&(A[1])&(A[2]))^A[3]);
+	A[2]=(((A[0])&(A[1]))^A[2]);
+	A[1]=(A[0])^A[1];
+	A[0]=A[0]^1;
 end
 endmodule
 ```
@@ -118,7 +118,8 @@ endmodule
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 ### Upcounter RTL:
-![uprtl](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/49af02c1-f493-4afb-81dd-d91b04943572)
+![image](https://github.com/ShamRathan/Exp-7-Synchornous-counters-/assets/93587823/d36c86d2-3df3-4b21-bfd6-155d30e2222a)
+
 ### Downcounter RTL:
 ![downcounterrtl](https://github.com/deepikasrinivasans/Exp-7-Synchornous-counters-/assets/119393935/89e0c4ca-6147-4f76-88b9-c979707faffb)
 
